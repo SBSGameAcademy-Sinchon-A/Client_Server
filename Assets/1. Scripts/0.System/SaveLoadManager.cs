@@ -12,8 +12,6 @@ public class SaveLoadManager : MonoBehaviour
     void Start()
     {
         userData = new UserData(1);
-
-        Debug.Log(userData.userID);
     }
 
     public void Save()
